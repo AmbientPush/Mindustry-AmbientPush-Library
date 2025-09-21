@@ -1,23 +1,23 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Mindustry AmbientPush Library"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "mindustry-ambientPush-library"
 
 #your name
-author: "You"
+author: "Ambient Push (ambientpush)"
 
 #the fully qualified main class of the mod
 main: "example.ExampleJavaMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "uhhhhh a library for (h)json Mindustry mods, heavily WIP. Mostly made for my own mod but i accept ideas and such"
 
 #the mod version
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 150
+minGameVersion: 146
 
 #this is a java mod
 java: true
