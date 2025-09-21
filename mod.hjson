@@ -2,10 +2,10 @@
 displayName: "Mindustry AmbientPush Library"
 
 #the internal name of your mod
-name: "mindustry-ambientPush-library"
+name: "mindustry-ambientpush-library"
 
 #your name
-author: "Ambient Push (ambientpush)"
+author: "Ambient Push ("ambientpush" on dc)"
 
 #the fully qualified main class of the mod
 main: "AutomatonDynamicsMod"

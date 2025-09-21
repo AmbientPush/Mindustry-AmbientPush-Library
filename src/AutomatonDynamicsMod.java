@@ -9,7 +9,8 @@ public class AutomatonDynamicsMod extends Mod {
 
     @Override
     public void loadContent() {
-        // Minimal for library: just log loading
-        //System.out.println("Automaton Dynamics Library loaded!");
+        Logs.info("ass");
+        ClassMap.classes.put("ADLimitedBattery", LimitedBattery.java);
+        ClassMap.classes.put("ADHeatConductorDamage", HeatConductorDamage.java);
     }
 }
