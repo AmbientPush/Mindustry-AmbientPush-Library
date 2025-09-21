@@ -10,6 +10,6 @@ public class AutomatonDynamicsMod extends Mod {
     @Override
     public void loadContent() {
         // Minimal for library: just log loading
-        System.out.println("Automaton Dynamics Library loaded!");
+        //System.out.println("Automaton Dynamics Library loaded!");
     }
 }
