@@ -1,3 +1,5 @@
+package abl.blocks;
+
 import arc.util.Time;
 import mindustry.world.blocks.power.Battery;
 import mindustry.world.meta.BlockGroup;
