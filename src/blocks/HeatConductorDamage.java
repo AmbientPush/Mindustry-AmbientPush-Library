@@ -17,7 +17,7 @@ public class HeatConductorDamage extends HeatConductor {
         solid = true;
         update = true;
         destructible = true;
-        group = BlockGroup.crafting;
+        group = BlockGroup.heat;
     }
 
     public class HeatConductorDamageBuild extends HeatConductorBuild {
