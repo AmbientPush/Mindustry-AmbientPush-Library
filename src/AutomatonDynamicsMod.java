@@ -1,6 +1,7 @@
 package automaton_dynamics;
 
 import mindustry.mod.Mod;
+import mindustry.mod.ClassMap;
 
 public class AutomatonDynamicsMod extends Mod {
     public AutomatonDynamicsMod() {
