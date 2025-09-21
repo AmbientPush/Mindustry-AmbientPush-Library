@@ -5,7 +5,7 @@ displayName: "Mindustry AmbientPush Library"
 name: "mindustry-ambientpush-library"
 
 #your name
-author: "Ambient Push ("ambientpush" on dc)"
+author: "Ambient Push (ambientpush on dc)"
 
 #the fully qualified main class of the mod
 main: "abl.AutomatonDynamicsMod"
