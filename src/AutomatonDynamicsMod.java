@@ -10,7 +10,7 @@ public class AutomatonDynamicsMod extends Mod {
 
     @Override
     public void loadContent() {
-        ClassMap.classes.put("ADLimitedBattery", LimitedBattery.java);
-        ClassMap.classes.put("ADHeatConductorDamage", HeatConductorDamage.java);
+        ClassMap.classes.put("ADLimitedBattery", blocks.LimitedBattery.java);
+        ClassMap.classes.put("ADHeatConductorDamage", blocks.HeatConductorDamage.java);
     }
 }
