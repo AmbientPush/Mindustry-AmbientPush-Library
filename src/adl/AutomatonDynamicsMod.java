@@ -6,8 +6,8 @@ import mindustry.mod.*;
 
 public class AutomatonDynamicsMod extends Mod {
     public AutomatonDynamicsMod() {
-        ClassMap.classes.put("ADLLimitedBattery", abl.blocks.LimitedBattery.class);
-        ClassMap.classes.put("ADLHeatConductorDamage", abl.blocks.HeatConductorDamage.class);
+        ClassMap.classes.put("ADLLimitedBattery", adl.blocks.LimitedBattery.class);
+        ClassMap.classes.put("ADLHeatConductorDamage", adl.blocks.HeatConductorDamage.class);
 
         Log.info("AutomatonDynamicsMod initialized");
     }
