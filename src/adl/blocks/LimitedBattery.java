@@ -10,12 +10,10 @@ public class LimitedBattery extends Battery {
 
     public LimitedBattery(String name) {
         super(name);
-        // Configure block properties
         solid = true;
         update = true;
         destructible = true;
         group = BlockGroup.power;
-        // Ensure power module is initialized
         hasPower = true;
         consumesPower = true;
         outputsPower = true;
@@ -24,32 +22,27 @@ public class LimitedBattery extends Battery {
     public class LimitedBatteryBuild extends BatteryBuild {
         @Override
         public void updateTile() {
-            // Call vanilla update to ensure power graph is initialized
-            super.updateTile();
+            super.updateTile(); // Ensures power graph initialization
         }
 
         @Override
         public float getPowerProduction() {
-            // Cap power output per tick
             if (power.status <= 0f || power.graph.getPowerNeeded() <= power.graph.getPowerProduced()) {
                 return 0f;
             }
             float capacity = consPower.capacity;
-            float maxOutputThisTick = maxPowerOutput * Time.delta;
-            float availablePower = power.status * capacity;
-            return Math.min(maxOutputThisTick, availablePower) / Time.delta;
+            float available = power.status * capacity;
+            return Math.min(maxPowerOutput, available / Time.delta);
         }
 
         @Override
         public float getPowerConsumption() {
-            // Cap power input per tick
             if (power.status >= 1f || power.graph.getPowerProduced() <= power.graph.getPowerNeeded()) {
                 return 0f;
             }
             float capacity = consPower.capacity;
-            float maxInputThisTick = maxPowerInput * Time.delta;
-            float neededPower = (1f - power.status) * capacity;
-            return Math.min(maxInputThisTick, neededPower) / Time.delta;
+            float needed = (1f - power.status) * capacity;
+            return Math.min(maxPowerInput, needed / Time.delta);
         }
     }
 }
