@@ -8,7 +8,7 @@ name: "mindustry-ambientpush-library"
 author: "Ambient Push (ambientpush on dc)"
 
 #the fully qualified main class of the mod
-main: "abl.AutomatonDynamicsMod"
+main: "adl.AutomatonDynamicsMod"
 
 #the mod description as seen in the mod dialog
 description: "uhhhhh a library for (h)json Mindustry mods, heavily WIP. Mostly made for my own mod but i accept ideas and such"
