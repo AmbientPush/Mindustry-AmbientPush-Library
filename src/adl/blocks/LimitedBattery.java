@@ -35,7 +35,7 @@ public class LimitedBattery extends Battery {
             return Math.min(maxPowerOutput, available / Time.delta);
         }
 
-        @Override
+//        @Override //the error is here
         public float getPowerConsumption() {
             if (power.status >= 1f || power.graph.getPowerProduced() <= power.graph.getPowerNeeded()) {
                 return 0f;
