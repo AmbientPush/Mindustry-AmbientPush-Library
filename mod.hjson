@@ -11,13 +11,13 @@ author: "Ambient Push (ambientpush on dc)"
 main: "adl.AutomatonDynamicsMod"
 
 #the mod description as seen in the mod dialog
-description: "uhhhhh a library for (h)json Mindustry mods, heavily WIP. Mostly made for my own mod but i accept ideas and such"
+description: "uhhhhh a library for (h)json Mindustry mods, heavily WIP. Mostly made for my own mod but i accept ideas and such\n\n\n[[red]]CREDITS:\n[[]]HeadacheCrafter - Nyfalis (https://github.com/JiroCab/Nyfalis)"
 
 #the mod version
-version: 1.0
+version: 1.1
 
 #the minimum game build required to run this mod
-minGameVersion: 146
+minGameVersion: 149
 
 #this is a java mod
 java: true
