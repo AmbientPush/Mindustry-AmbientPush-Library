@@ -9,6 +9,8 @@ public class AutomatonDynamicsMod extends Mod {
         ClassMap.classes.put("ADLLimitedBattery", adl.blocks.LimitedBattery.class);
         ClassMap.classes.put("ADLHeatConductorDamage", adl.blocks.HeatConductorDamage.class);
         ClassMap.classes.put("ADLHeadacheCrafter", adl.blocks.HeadacheCrafter.class);
+        ClassMap.classes.put("ADLFactoryPlan", adl.other.FactoryPlan.class);
+        ClassMap.classes.put("ADLPlanDrawer", adl.other.PlanDrawer.class);
 
         Log.info("AutomatonDynamicsMod initialized");
     }
