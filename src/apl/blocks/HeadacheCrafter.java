@@ -1,5 +1,5 @@
 //CREDITS: stolen directly from Nyfalis
-package adl.blocks;
+package apl.blocks;
 //package olupis.world.blocks.processing;
 
 import arc.*;

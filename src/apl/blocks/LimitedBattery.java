@@ -1,4 +1,4 @@
-package adl.blocks;
+package apl.blocks;
 
 import arc.util.Time;
 import mindustry.world.blocks.power.Battery;

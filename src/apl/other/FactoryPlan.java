@@ -1,5 +1,5 @@
 //CREDITS: stolen directly from Nyfalis
-package adl.blocks;
+package apl.other;
 //package olupis.world.blocks.processing;
 
 import arc.*;
@@ -44,7 +44,7 @@ public class FactoryPlan extends Block{
         generateIcons = true;
 
         requirements(Category.logic, BuildVisibility.worldProcessorOnly, with());
-        researchCost = with(NyfalisItemsLiquid.powerAmmoItem, 69);
+        researchCost = with(Item.copper, 69);
     }
 
     public FactoryPlan(String name, float time, ItemStack[] input, @Nullable ItemStack[] output, LiquidStack[] inputLiquid, @Nullable LiquidStack[] outputLiquid, float powerIn, float powerOut){
