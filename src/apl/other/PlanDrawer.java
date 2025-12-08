@@ -2,6 +2,10 @@
 package apl.other;
 //package olupis.world.blocks.drawers;
 
+/* //TODO idfk
+
+
+
 import arc.*;
 import arc.graphics.g2d.*;
 import arc.math.*;
@@ -12,8 +16,8 @@ import mindustry.gen.*;
 import mindustry.graphics.*;
 import mindustry.world.*;
 import mindustry.world.draw.*;
-import olupis.world.blocks.processing.*;
-import olupis.world.blocks.processing.HeadacheCrafter.*;
+//import olupis.world.blocks.processing.*;
+//import olupis.world.blocks.processing.HeadacheCrafter.*;
 
 public class PlanDrawer  extends DrawRegion{
     public TextureRegion[][] variantRegions;
@@ -73,4 +77,4 @@ public class PlanDrawer  extends DrawRegion{
             Draw.z(z);
         }
     }
-}
+} */
