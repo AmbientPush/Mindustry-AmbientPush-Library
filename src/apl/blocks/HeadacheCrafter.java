@@ -1,6 +1,8 @@
-//CREDITS: stolen directly from Nyfalis
-package apl.blocks;
+///CREDITS: stolen directly from Nyfalis
+//TODO delete this as a comment package apl.blocks;
 //package olupis.world.blocks.processing;
+/* //TODO idfk just fix this
+
 
 import arc.*;
 import arc.func.*;
