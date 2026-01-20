@@ -13,6 +13,7 @@ public class AutomatonDynamicsMod extends Mod {
 //        ClassMap.classes.put("APLFactoryPlan", apl.other.FactoryPlan.class);
 //        ClassMap.classes.put("APLPlanDrawer", apl.other.PlanDrawer.class);
         ClassMap.classes.put("APLVeryStaticWall", apl.blocks.VeryStaticWall.class);
+        ClassMap.classes.put("APLargeFloor", apl.blocks.LargeFloor.class);
 
     }
 
