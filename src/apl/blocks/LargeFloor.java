@@ -18,7 +18,7 @@ public class LargeFloor extends Floor {
     public int largeVariants = 0, hugeVariants = 0, giganticVariants = 0;
     public float largeThreshold = 0.4f, hugeThreshold = 0.2f, giganticThreshold = 0.1f ;
 
-    public RotatingFloor (String name){
+    public LargeFloor (String name){
         super(name);
     }
 
