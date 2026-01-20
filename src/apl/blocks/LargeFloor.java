@@ -12,7 +12,7 @@ import mindustry.world.blocks.environment.Floor;
 
 import static mindustry.Vars.world;
 
-public class largeFloor extends Floor {
+public class LargeFloor extends Floor {
     public TextureRegion[] larges, huge, gigantic;
     public TextureRegion[][][] largeSplits, hugeSplits, giganticSplits;
     public int largeVariants = 0, hugeVariants = 0, giganticVariants = 0;
