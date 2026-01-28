@@ -29,8 +29,8 @@ import mindustry.world.blocks.production.*;
 import mindustry.world.consumers.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
-import olupis.content.*;
-import olupis.world.blocks.drawers.*;
+//import olupis.content.*;
+//import olupis.world.blocks.drawers.*;
 
 import java.awt.*;
 import java.util.*;
