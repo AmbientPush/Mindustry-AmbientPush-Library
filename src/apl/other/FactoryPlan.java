@@ -3,9 +3,6 @@ package apl.other;
 //package olupis.world.blocks.processing;
 
 
-
-
-
 import arc.*;
 import arc.graphics.g2d.*;
 import arc.util.*;

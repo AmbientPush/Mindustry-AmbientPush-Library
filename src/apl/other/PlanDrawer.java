@@ -18,6 +18,7 @@ import mindustry.world.*;
 import mindustry.world.draw.*;
 //import olupis.world.blocks.processing.*;
 //import olupis.world.blocks.processing.HeadacheCrafter.*;
+import ambient-push-library.blocks.HeadacheCrafter.*;
 
 public class PlanDrawer  extends DrawRegion{
     public TextureRegion[][] variantRegions;

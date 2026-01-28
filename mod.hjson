@@ -2,7 +2,7 @@
 displayName: "Mindustry AmbientPush Library"
 
 #the internal name of your mod
-name: "mindustry-ambientpush-library"
+name: "ambient-push-library"
 
 #your name
 author: "Ambient Push (ambientpush on dc)"
