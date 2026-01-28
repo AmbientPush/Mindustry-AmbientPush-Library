@@ -1,8 +1,8 @@
 ///CREDITS: stolen directly from Nyfalis
-//TODO delete this as a comment package apl.blocks;
+package apl.blocks;
 //package olupis.world.blocks.processing;
 
-/* //TODO idfk, just fix this ir delete, no time to care rn
+//TODO idfk, just fix this ir delete, no time to care rn
 
 
 import arc.*;
@@ -29,8 +29,8 @@ import mindustry.world.blocks.production.*;
 import mindustry.world.consumers.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
-//import olupis.content.*;
-//import olupis.world.blocks.drawers.*;
+import olupis.content.*;
+import olupis.world.blocks.drawers.*;
 
 import java.awt.*;
 import java.util.*;
