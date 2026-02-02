@@ -14,10 +14,9 @@ public class DrawTallBlock extends TallBlock{
         super(name);
     }
 
-    public class DrawTallBlockBuild extends TallBlock.TallBlockBuild{
-        @Override
-        public void draw(){
-            drawer.draw(this);
-        }
+    @Override
+    public void drawBase(Tile tile){
+        Draw.z(layer);
+        drawer.draw(this);
     }
 }
