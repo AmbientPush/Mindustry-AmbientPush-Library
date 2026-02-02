@@ -1,4 +1,5 @@
-///CREDITS: stolen directly from Nyfalis
+/*
+//CREDITS: stolen directly from Nyfalis
 package apl.blocks;
 //package olupis.world.blocks.processing;
 
@@ -392,3 +393,4 @@ public class HeadacheCrafter  extends GenericCrafter{
         return t;
     }
 }
+*/
