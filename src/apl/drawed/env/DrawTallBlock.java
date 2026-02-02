@@ -14,7 +14,7 @@ public class DrawTallBlock extends TallBlock{
         super(name);
     }
 
-    public class DrawTallBlockBuild extends TallBlockBuild{
+    public class DrawTallBlockBuild extends TallBlock.TallBlockBuild{
         @Override
         public void draw(){
             drawer.draw(this);
