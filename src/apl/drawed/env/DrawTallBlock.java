@@ -10,4 +10,9 @@ import mindustry.world.draw.*;
 
 public class DrawTallBlock extends TallBlock{
     public DrawBlock drawer = new DrawDefault();
+
+    @Override
+    public DrawTallBlock(String name){
+        super(name);
+    }
 }
