@@ -10,11 +10,11 @@ import mindustry.world.draw.*;
 
 public class DrawTallBlock extends TallBlock{
     public @Nullable DrawBlock drawer;
-    public TallBlock.TallBlockBuild(String name){
+    public DrawTallBlock(String name){
         super(name);
     }
 
-    public class DrawTallBlockBuild extends TallBlockBuild{
+    public class DrawTallBlockBuild extends TallBlock.TallBlockBuild{
         @Override
         public void draw(){
             drawer.draw(this);
